@@ -2236,3 +2236,13 @@ footer {
     transition: none !important;
   }
 }
+/* Keep the decorative car and orbital lines inside the page on narrow screens. */
+main {
+  overflow-x: clip;
+}
+.hero h1 {
+  letter-spacing: -0.045em;
+}
+.brand {
+  letter-spacing: -0.055em;
+}
